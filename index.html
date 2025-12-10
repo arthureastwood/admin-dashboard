@@ -1,170 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Admin Dashboard</title>
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <ul>
-                <li>
-                    <img src="./assets/view-dashboard.svg" alt="dashboard icon">
-                    Dashboard
-                </li>
-                <li>
-                    <img src="./assets/home.svg" alt="dashboard icon">
-                    Home
-                </li>
-                <li>
-                    <img src="./assets/account-box.svg" alt="account-box icon">
-                    Profile
-                </li>
-                <li>
-                    <img src="./assets/message-reply.svg" alt="message-reply icon">
-                    Messages
-                </li>
-                <li>
-                    <img src="./assets/history.svg" alt="history icon">
-                    History
-                </li>
-                <li>
-                    <img src="./assets/file-multiple.svg" alt="file-multiple icon">
-                    Tasks
-                </li>
-                <li class="comm">
-                    <img src="./assets/google-circles-communities.svg" alt="google-circles-communities icon">
-                    Communities
-                </li>
-                <li>
-                    <img src="./assets/cog.svg" alt="settings icon">
-                    Settings
-                </li>
-                <li>
-                    <img src="./assets/cloud-question.svg" alt="cloud-question icon">
-                    Support
-                </li>
-                <li>
-                    <img src="./assets/shield-check.svg" alt="shield-check icon">
-                    Privacy
-                </li>
-            </ul>
-            
+  <div class="container">
+    <div class="sidebar">
+      <div class="nav-main-sidebar">
+        <div class="title-sidebar">
+          <span>Dashboard</span>
         </div>
-
-        <div class="header">
-            <div class="header profile">
-                <div>
-                    <img src="./assets/magnify.svg" alt="magnify icon">
-                    <input type="text">
-                </div>
-                <div>
-                    <img src="./assets/bell-ring.svg" alt="bell-ring icon">
-                    <img src="./assets/profile-morgan.png" alt="morgan's profile photo">
-                    <span>Morgan Oakley</span>
-                </div>
-            </div>
-            <div class="header controls">
-                <div>
-                    <img src="./assets/profile-morgan.png" alt="morgan's profile photo">
-                    <p>Hi there,</p>
-                    <span>Morgan Oakley(@morgan)</span>
-                </div>
-                <div>
-                    <button type="button">New</button>
-                    <button type="button">Upload</button>
-                    <button type="button">Share</button>
-                </div>
-            </div>
+        <div class="nav-pages-sidebar">
+          <ul>
+            <li class="nav-home">Home</li>
+            <li class="nav-prof">Profile</li>
+            <li class="nav-msgs">Messages</li>
+            <li class="nav-hist">History</li>
+            <li class="nav-task">Tasks</li>
+            <li class="nav-comm">Communities</li>
+          </ul>
         </div>
-    
-        <div class="main">
-            <div class="projects">
-                <h3>Your Projects</h3>
-                <div class="projects project-1">
-                    <span>Super Cool Project</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
-                    <img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon">
-                    <img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon">
-                    <img src="./assets/vector-polyline.svg" alt="vector-polyline icon">      
-                </div>
-                <div class="projects project-2">
-                    <span>Less Cool Project</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
-                    <img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon">
-                    <img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon">
-                    <img src="./assets/vector-polyline.svg" alt="vector-polyline icon">      
-                </div>
-                <div class="projects project-3">
-                    <span>Impossible App</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
-                    <img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon">
-                    <img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon">
-                    <img src="./assets/vector-polyline.svg" alt="vector-polyline icon">      
-                </div>
-                <div class="projects project-4">
-                    <span>Easy Peasy App</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
-                    <img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon">
-                    <img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon">
-                    <img src="./assets/vector-polyline.svg" alt="vector-polyline icon">      
-                </div>
-                <div class="projects project-5">
-                    <span>Ad Blocker</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
-                    <img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon">
-                    <img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon">
-                    <img src="./assets/vector-polyline.svg" alt="vector-polyline icon">      
-                </div>
-                <div class="projects project-6">
-                    <span>Money Maker</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
-                    <img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon">
-                    <img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon">
-                    <img src="./assets/vector-polyline.svg" alt="vector-polyline icon">      
-                </div>
-            </div>
-
-            <div class="announcements">
-                <h3>Announcements</h3>
-                <div class="news">
-                    <h4>Site Maintenance</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam culpa eum labore veritatis nesciunt. Quae, accusamus laboriosam hic illum accusantium dolorem doloremque consequatur inventore eaque dolores distinctio nihil dicta.</p>
-                    <hr>
-                    <h4>Community Share Day</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nesciunt. Possimus ab, aperiam aspernatur repellendus suscipit perspiciatis dicta delectus quidem, itaque recusandae rerum ut voluptatum, corporis sint sapiente quis ducimus.</p>
-                    <hr>
-                    <h4>Updated Privacy Policy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, pariatur tempore obcaecati optio esse quaerat hic velit delectus corporis repellat laborum voluptatem praesentium quisquam modi minus, facere officia ratione. Dolor.</p>
-                </div>
-                <h3>Trending</h3>
-                <div class="trending">
-                    <div class="trending card-1">
-                        <img src="./assets/profile-tegan.png" alt="tegan's profile photo">
-                        <p>@tegan</p>
-                        <span>World Peace Builder</span>
-                    </div>
-                    <div class="trending card-2">
-                        <img src="./assets/profile-morgan.png" alt="morgan's profile photo">
-                        <p>@morgan</p>
-                        <span>Super Cool Project</span>
-                    </div>
-                    <div class="trending card-3">
-                        <img src="./assets/profile-kendall.png" alt="kendall's profile photo">
-                        <p>@kendall</p>
-                        <span>Life Changing App</span>
-                    </div>
-                    <div class="trending card-4">
-                        <img src="./assets/profile-alex.png" alt="alex's profile photo">
-                        <p>@alex</p>
-                        <span>No Traffic Maker</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
+      <div class="nav-footer-sidebar">
+        <ul>
+          <li class="nav-sett">Settings</li>
+          <li class="nav-supp">Support</li>
+          <li class="nav-priv">Privacy</li>
+        </ul>
+      </div>
     </div>
+    <div class="header">
+      <div class="search-bar">
+        <img src="./assets/magnify.svg" alt="magnify icon" height="30rem">
+        <input type="text">
+      </div>
+      <div class="profile-bar">
+        <img src="./assets/bell-ring.svg" alt="bell-ring icon" height="30rem">
+        <img class="profile-pic" src="./assets/profile-morgan.png" alt="morgan's profile photo" height="40rem">
+        <span style="font-size:1em;font-weight:600;margin-right: 2em;">Morgan Oakley</span>
+      </div>
+      <div class="greeting">
+        <img class="profile-pic" src="./assets/profile-morgan.png" alt="morgan's profile photo" height="80rem">
+        <div class="greeting-text">
+          Hi there, <span>Morgan Oakley (@morgan)</span>
+        </div>
+      </div>
+      <div class="action-bar">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-div main-projects">
+        <h1>Your Projects</h1>
+        <div class="main-items mc-content">
+          <div class="mp-item content1">
+            <div class="mp-text">
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda qui debitis, obcaecati ducimus quas fuga vel neque voluptates? Ab nostrum distinctio nisi at voluptatum numquam incidunt in, nobis aut animi?</p>
+            </div>
+            <div class="mp-buttons">
+              <button><img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon"></button>
+              <button><img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon"></button>
+              <button><img src="./assets/vector-polyline.svg" alt="vector-polyline icon"></button>
+            </div>
+          </div>
+          <div class="mp-item content2">
+            <div class="mp-text">
+              <h2>Less Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
+            </div>
+            <div class="mp-buttons">
+              <button><img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon"></button>
+              <button><img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon"></button>
+              <button><img src="./assets/vector-polyline.svg" alt="vector-polyline icon"></button>
+            </div>
+          </div>
+          <div class="mp-item content3">
+            <div class="mp-text">
+              <h2>Impossible App</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum, adipisci sapiente neque numquam error exercitationem sit fugit nobis ullam eum suscipit. Hic quasi repellendus sed fuga illo non numquam?</p>
+            </div>
+            <div class="mp-buttons">
+              <button><img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon"></button>
+              <button><img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon"></button>
+              <button><img src="./assets/vector-polyline.svg" alt="vector-polyline icon"></button>
+            </div>
+          </div>
+          <div class="mp-item content4">
+            <div class="mp-text">
+              <h2>Easy Peasy App</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis recusandae doloremque, numquam eos natus, ipsam soluta facilis ducimus voluptatem quae modi magnam molestiae obcaecati expedita est eveniet aliquid ea!</p>
+            </div>
+            <div class="mp-buttons">
+              <button><img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon"></button>
+              <button><img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon"></button>
+              <button><img src="./assets/vector-polyline.svg" alt="vector-polyline icon"></button>
+            </div>
+          </div>
+          <div class="mp-item content5">
+            <div class="mp-text">
+              <h2>Ad Blocker</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius exercitationem earum et illo doloribus quis? Deleniti aut ea, perferendis cupiditate nisi sapiente illum culpa reiciendis. Error eos odio minus culpa?</p>
+            </div>
+            <div class="mp-buttons">
+              <button><img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon"></button>
+              <button><img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon"></button>
+              <button><img src="./assets/vector-polyline.svg" alt="vector-polyline icon"></button>
+            </div>
+          </div>
+          <div class="mp-item content6">
+            <div class="mp-text">
+              <h2>Money Maker</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima illo omnis, magnam molestias praesentium in labore laborum assumenda architecto nisi et sequi quia fuga rerum, asperiores libero porro adipisci?</p>
+            </div>
+            <div class="mp-buttons">
+              <button><img src="./assets/star-plus-outline.svg" alt="star-plus-outline icon"></button>
+              <button><img src="./assets/eye-plus-outline.svg" alt="eye-plus-outline icon"></button>
+              <button><img src="./assets/vector-polyline.svg" alt="vector-polyline icon"></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="main-div main-anno">
+        <h1>Announcements</h1>
+        <div class="mc-content ma-items">
+          <section>
+            <h2>Site Maintenance</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste magnam, quam sed illo saepe veritatis nisi harum modi facilis labore praesentium, vero molestias nesciunt ipsa ratione quos obcaecati blanditiis.</p>
+          </section>
+          <hr>
+          <section>
+            <h2>Community Share Day</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nemo voluptatum, odit dolorum iure cupiditate dolore? Dolore, maxime sit! Nisi autem ad quos accusantium aliquid itaque quis quidem ea neque.</p>
+          </section>
+          <hr>
+          <section>
+            <h2>Updated Privacy Policy</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed obcaecati cum suscipit veritatis explicabo, pariatur itaque dolorum quo? Accusamus modi aspernatur, praesentium quia provident assumenda sequi quasi officia iure.</p>
+          </section>
+        </div>
+      </div>
+      <div class="main-div main-trending">
+        <h1>Trending</h1>
+        <div class="mc-content mt-items">
+          <div class="trend topic1">
+            <img src="./assets/profile-tegan.png" alt="tegan's profile photo">
+            <div class="trend-info">
+              <span class="trend-acc">@tegan</span>
+              <span class="trend-msg">World Peace Builder</span>
+            </div>
+          </div>
+          <div class="trend topic2">
+            <img src="./assets/profile-morgan.png" alt="morgan's profile photo">
+            <div class="trend-info">
+              <span class="trend-acc">@morgan</span>
+              <span class="trend-msg">Super Cool Project</span>
+            </div>
+          </div>
+          <div class="trend topic3">
+            <img src="./assets/profile-kendall.png" alt="kendall's profile photo">
+            <div class="trend-info">
+              <span class="trend-acc">@kendall</span>
+              <span class="trend-msg">Life Changing App</span>
+            </div>
+          </div>
+          <div class="trend topic4">
+            <img src="./assets/profile-alex.png" alt="alex's profile photo">
+            <div class="trend-info">
+              <span class="trend-acc">@alex</span>
+              <span class="trend-msg">No Traffic Maker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
