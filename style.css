@@ -1,0 +1,63 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+:root{
+    --primary-clr: #fff;
+    --secondary-clr: rgb(66, 139, 235);
+    --background-clr: rgb(206, 200, 200);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    border: 2px solid red;
+    grid-template-areas:
+    "sidebar header" 
+    "sidebar main";
+}
+
+.sidebar{
+    background-color: var(--secondary-clr);
+    grid-area: sidebar;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr repeat(9, 1fr);
+    list-style-type: none;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.sidebar > ul > li > img {
+    width: 25px;
+    height: 25px;
+    fill: var(--primary-clr);
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row: 1;
+    border: 1px solid green;
+}
