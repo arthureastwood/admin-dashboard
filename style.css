@@ -8,6 +8,7 @@
     --secondary-clr: rgb(66, 139, 235);
     --background-clr: rgb(231, 222, 222);
     --primary-clr-darker: rgb(32, 84, 153);
+    --paragraph-clr: #6e6969;
 }
 
 body {
@@ -285,7 +286,8 @@ body {
   }
   p {
     font-size: 0.8rem;
-    color: var(--paragraph-text-color);
+    color: var(--paragraph-clr);
+    font-weight: 500;
   }
 }
 
@@ -303,7 +305,8 @@ body {
     height: 1px;
   }
   p {
-    color: var(--paragraph-text-color);
+    color: var(--paragraph-clr);
+    font-weight: 500;
   }
 
   display: grid;
@@ -312,7 +315,7 @@ body {
 }
 
 .mt-items {
-  padding: 1.5rem;
+  padding: 0.8rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
@@ -330,10 +333,10 @@ body {
     display: inline-block;
     .trend-msg {
       display: block;
-      color: var(--paragraph-text-color);
+      color: var(--paragraph-clr);
     }
   }
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.2rem;
 }
